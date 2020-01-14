@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb81d09-e1f4-4849-9d74-404cc8234117" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring-with-pact-provider/src/main/java/com/mchu/article/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-with-pact-provider/src/test/java/com/mchu/ContractVerificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-with-pact-provider/src/test/resources/pacts/test_consumer-ArticlesProvider.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/mchu/pact/article/ArticleController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/mchu/pact/ContractVerificationTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/pacts/test_consumer-ArticlesProvider.json" afterDir="false" />
@@ -230,11 +233,11 @@
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1578658659980" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578593444030" />
     <state width="1217" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1579018971927" />
-    <state x="332" y="170" key="NewModule_or_Project.wizard" timestamp="1579019003290">
+    <state x="332" y="170" key="NewModule_or_Project.wizard" timestamp="1579019118522">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="332" y="151" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1579017845042" />
-    <state x="332" y="170" key="NewModule_or_Project.wizard/0.23.1440.877@0.23.1440.877" timestamp="1579019003290" />
+    <state x="332" y="170" key="NewModule_or_Project.wizard/0.23.1440.877@0.23.1440.877" timestamp="1579019118522" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578593091952">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
