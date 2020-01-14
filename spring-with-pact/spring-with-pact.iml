@@ -98,23 +98,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.github.mifmif:generex:1.0.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: javax.mail:mail:1.5.0-b01" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: javax.activation:activation:1.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.3.61" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: au.com.dius:pact-jvm-core-support:4.0.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:antlr4:4.7.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:antlr4-runtime:4.7.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:antlr-runtime:3.5.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:ST4:4.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.glassfish:javax.json:1.0.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.github.microutils:kotlin-logging:1.6.26" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.github.microutils:kotlin-logging-common:1.6.26" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: au.com.dius:pact-jvm-core-pact-broker:4.0.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.guava:guava:18.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.dmfs:rfc3986-uri:0.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.dmfs:iterators:1.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.dmfs:optional:0.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.amazonaws:aws-java-sdk-s3:1.11.415" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.amazonaws:aws-java-sdk-kms:1.11.415" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.amazonaws:aws-java-sdk-core:1.11.415" level="project" />
@@ -122,9 +105,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.10.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: joda-time:joda-time:2.10.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.amazonaws:jmespath-java:1.11.415" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.github.salomonbrys.kotson:kotson:2.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: au.com.dius:pact-jvm-core-matchers:4.0.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: xerces:xercesImpl:2.12.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: xml-apis:xml-apis:1.4.01" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.atteo:evo-inflector:1.2.2" level="project" />
@@ -133,7 +114,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.61" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlinx:atomicfu:0.14.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.typesafe:config:1.3.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.3.2" level="project" />
@@ -158,6 +138,39 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.ktor:ktor-http-cio-jvm:1.2.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.ktor:ktor-http-jvm:1.2.6" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.29" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: au.com.dius:pact-jvm-provider-junit5:4.0.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: au.com.dius:pact-jvm-core-support:4.0.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:antlr4:4.7.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:antlr4-runtime:4.7.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:antlr-runtime:3.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:ST4:4.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.ibm.icu:icu4j:61.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.github.microutils:kotlin-logging:1.6.26" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.github.microutils:kotlin-logging-common:1.6.26" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.61" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.3.61" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.salomonbrys.kotson:kotson:2.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: au.com.dius:pact-jvm-provider:4.0.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-io:commons-io:2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.fusesource.jansi:jansi:1.17.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: au.com.dius:pact-jvm-core-pact-broker:4.0.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.dmfs:rfc3986-uri:0.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.dmfs:iterators:1.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.dmfs:optional:0.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.arrow-kt:arrow-core-extensions:0.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.arrow-kt:arrow-annotations:0.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.kindedj:kindedj:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.arrow-kt:arrow-typeclasses:0.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.arrow-kt:arrow-core-data:0.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.scala-lang:scala-library:2.12.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.github.classgraph:classgraph:4.8.25" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy:2.5.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.cloud:spring-cloud-starter-contract-verifier:2.2.1.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.cloud:spring-cloud-contract-verifier:2.2.1.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.cloud:spring-cloud-contract-spec:2.2.1.RELEASE" level="project" />
@@ -170,8 +183,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.maven.resolver:maven-resolver-api:1.3.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.rackspace.eclipse.webtools.sourceediting:org.eclipse.wst.xml.xpath2.processor:2.1.100" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: edu.princeton.cup:java-cup:10k" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.ibm.icu:icu4j:4.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy:2.5.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy-nio:2.5.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy-json:2.5.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy-xml:2.5.8" level="project" />

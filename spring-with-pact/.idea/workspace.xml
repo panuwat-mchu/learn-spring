@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9eb81d09-e1f4-4849-9d74-404cc8234117" name="Default Changelist" comment="" />
+    <list default="true" id="9eb81d09-e1f4-4849-9d74-404cc8234117" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mchu/pact/article/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mchu/pact/ContractVerificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pacts/test_consumer-ArticlesProvider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-with-pact.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-with-pact.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mchu/pact/ExampleJavaConsumerPactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mchu/pact/ExampleJavaConsumerPactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +45,52 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/pacts" />
   </component>
-  <component name="RunManager" selected="JUnit.ExampleJavaConsumerPactTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/pacts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ContractVerificationTest (1)">
+    <configuration name="All in spring-with-pact (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-with-pact" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in spring-with-pact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-with-pact" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractVerificationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-with-pact" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mchu.pact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mchu.pact" />
+      <option name="MAIN_CLASS_NAME" value="com.mchu.pact.ContractVerificationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractVerificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-with-pact" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:com.mchu.pact.ContractVerificationTest]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,12 +132,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.spring-with-pact [spring-boot:run]" />
       <item itemvalue="JUnit.All in spring-with-pact" />
       <item itemvalue="JUnit.ExampleJavaConsumerPactTest" />
+      <item itemvalue="Maven.spring-with-pact [spring-boot:run]" />
+      <item itemvalue="JUnit.All in spring-with-pact (1)" />
+      <item itemvalue="JUnit.ContractVerificationTest" />
+      <item itemvalue="JUnit.ContractVerificationTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContractVerificationTest (1)" />
+        <item itemvalue="JUnit.ContractVerificationTest" />
+        <item itemvalue="JUnit.All in spring-with-pact (1)" />
         <item itemvalue="JUnit.ExampleJavaConsumerPactTest" />
         <item itemvalue="JUnit.All in spring-with-pact" />
       </list>
@@ -122,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578592896747</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initiate">
+      <created>1578593080115</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578593080115</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,41 +202,55 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1578589199343" />
-    <state x="157" y="52" key="CommitChangelistDialog2" timestamp="1578592896392">
+    <state x="157" y="52" key="CommitChangelistDialog2" timestamp="1578593079928">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="157" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578592896392" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578592708408">
+    <state x="157" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578593079928" />
+    <state width="1217" height="245" key="GridCell.Tab.0.bottom" timestamp="1579018971927">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1578658659981" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578593444031" />
+    <state width="1217" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1579018971927" />
+    <state width="1217" height="245" key="GridCell.Tab.0.center" timestamp="1579018971927">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1578658659979" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578593444030" />
+    <state width="1217" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1579018971927" />
+    <state width="1217" height="245" key="GridCell.Tab.0.left" timestamp="1579018971926">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1578658659979" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578593444029" />
+    <state width="1217" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1579018971926" />
+    <state width="1217" height="245" key="GridCell.Tab.0.right" timestamp="1579018971927">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1578658659980" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578593444030" />
+    <state width="1217" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1579018971927" />
+    <state x="332" y="170" key="NewModule_or_Project.wizard" timestamp="1579019003290">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="332" y="151" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1579017845042" />
+    <state x="332" y="170" key="NewModule_or_Project.wizard/0.23.1440.877@0.23.1440.877" timestamp="1579019003290" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578593091952">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578592708408" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578592708407">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578593091952" />
+    <state x="397" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1578653748842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578592708407" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578592708407">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578592708407" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578592708408">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578592708408" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578592985900">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578592985900" />
-    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1578588984943">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1578588984943" />
+    <state x="397" y="309" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1578653748842" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1578651074299" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578592785204">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1578592785204" />
-    <state x="400" y="248" key="git4idea.merge.GitPullDialog" timestamp="1578592914729">
+    <state x="400" y="248" key="git4idea.merge.GitPullDialog" timestamp="1578593213574">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="400" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1578592914729" />
+    <state x="400" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1578593213574" />
   </component>
 </project>

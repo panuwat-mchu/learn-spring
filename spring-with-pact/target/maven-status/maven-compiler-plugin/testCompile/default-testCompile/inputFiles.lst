@@ -1,1 +1,3 @@
 /Users/panuwat/Code/tutorials/spring-with-pact/src/test/java/com/mchu/pact/SpringWithPactApplicationTests.java
+/Users/panuwat/Code/tutorials/spring-with-pact/src/test/java/com/mchu/pact/ContractVerificationTest.java
+/Users/panuwat/Code/tutorials/spring-with-pact/src/test/java/com/mchu/pact/ExampleJavaConsumerPactTest.java

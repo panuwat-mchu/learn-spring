@@ -27,7 +27,7 @@ public class ExampleJavaConsumerPactTest {
         return builder
                 .given("test state")
                 .uponReceiving("ExampleJavaConsumerPactTest test interaction")
-                .path("/articles.json")
+                .path("/articles")
                 .method("GET")
                 .willRespondWith()
                 .status(200)
