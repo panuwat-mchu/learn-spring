@@ -1,4 +1,4 @@
-package com.mchu;
+package co.desnu;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

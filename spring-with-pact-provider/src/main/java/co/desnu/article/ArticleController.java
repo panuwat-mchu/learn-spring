@@ -1,4 +1,4 @@
-package com.mchu.article;
+package co.desnu.article;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

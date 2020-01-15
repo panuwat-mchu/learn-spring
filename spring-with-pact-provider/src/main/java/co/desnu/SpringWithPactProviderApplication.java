@@ -1,4 +1,4 @@
-package com.mchu;
+package co.desnu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

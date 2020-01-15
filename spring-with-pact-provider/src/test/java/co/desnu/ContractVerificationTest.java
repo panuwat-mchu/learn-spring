@@ -1,4 +1,4 @@
-package com.mchu;
+package co.desnu;
 
 import au.com.dius.pact.core.model.Pact;
 import au.com.dius.pact.provider.junit.Provider;
