@@ -19,6 +19,6 @@ CREATE TABLE books (
     author_id INT NOT NULL
 );
 
-INSERT INTO books (name, author_id) VALUES
-  ('Billionaire Tech Entrepreneur', 2),
-  ('Billionaire Oil Magnate', 3);
+INSERT INTO books (id, name, author_id) VALUES
+  (1, 'Billionaire Tech Entrepreneur', 2),
+  (2, 'Billionaire Oil Magnate', 3);

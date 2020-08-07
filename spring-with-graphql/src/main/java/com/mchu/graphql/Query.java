@@ -2,13 +2,10 @@ package com.mchu.graphql;
 
 import com.mchu.graphql.book.Book;
 import com.mchu.graphql.book.BookRepository;
-import com.mchu.graphql.book.BookResolver;
 import graphql.kickstart.tools.GraphQLQueryResolver;
-import graphql.kickstart.tools.SchemaParser;
-import graphql.schema.GraphQLSchema;
-import org.springframework.context.annotation.Bean;
 
 import java.util.List;
+import java.util.Optional;
 
 public class Query implements GraphQLQueryResolver {
 
@@ -21,5 +18,7 @@ public class Query implements GraphQLQueryResolver {
     public List<Book> books(){
         return this.bookRepository.findAll();
     }
+
+    public Optional<Book> bookById(Long id) { return this.bookRepository.findById(id); }
 
 }
