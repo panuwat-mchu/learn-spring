@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: graphql-todo-app
+  servlet:
+    multipart:
+      enabled: true
+      location: /tmp
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+
+
+server:
+  port: 9000
+
+graphql:
+  servlet:
+    actuator-metrics: true
+  playground:
+    cdn:
+      version: latest
+
+graphiql:
+  enabled: true
+  cdn:
+    enabled: true
+    version: 0.17.5
+
+voyager:
+  enabled: true
+  cdn:
+    enabled: false
+
+graphql.playground:
+  enabled: true
+  cdn:
+    enabled: false
+
+
