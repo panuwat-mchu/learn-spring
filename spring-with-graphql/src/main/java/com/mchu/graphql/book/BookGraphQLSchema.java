@@ -2,6 +2,7 @@ package com.mchu.graphql.book;
 
 import com.mchu.graphql.Query;
 import com.mchu.graphql.author.AuthorRepository;
+import com.mchu.graphql.directives.UppercaseDirective;
 import graphql.kickstart.tools.SchemaParser;
 import graphql.schema.GraphQLSchema;
 import org.springframework.context.annotation.Bean;
@@ -23,6 +24,7 @@ public class BookGraphQLSchema {
     GraphQLSchema schema() {
         return SchemaParser.newParser()
                 .file("schema.graphqls")
+                .directive("uppercase", new UppercaseDirective())
                 .resolvers(new Query(this.bookRepository), new BookResolver(this.authorRepository))
                 .build()
                 .makeExecutableSchema();
