@@ -1,3 +1,5 @@
+directive @uppercase on FIELD_DEFINITION
+
 type Query {
     books: [Book!]
     bookById(id: ID): Book
@@ -11,5 +13,5 @@ type Book {
 
 type Author {
     id: Int!
-    name: String!
+    name: String! @uppercase
 }
