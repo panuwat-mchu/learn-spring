@@ -5,6 +5,7 @@ type Query {
     bookById(id: ID): Book
 }
 
+# a Book
 type Book {
     id: Int!
     name: String!
