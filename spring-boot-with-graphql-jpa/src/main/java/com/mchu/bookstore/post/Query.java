@@ -1,6 +1,7 @@
 package com.mchu.bookstore.post;
 
 import graphql.kickstart.tools.GraphQLQueryResolver;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
