@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/auth/realms/myrealm
+          jwk-set-uri: http://localhost:8080/auth/realms/myrealm/protocol/openid-connect/certs
+
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: false
+    exception-handlers-enabled: true
+  tools:
+    schema-location-pattern: "**/*.graphqls"
+    introspection-enabled: true
+
+altair:
+  enabled: true
+  mapping: /altair
+  endpoint.graphql: /graphql
+  pageTitle: Altair
+  props.resources.variables: graphqls/altair/variables.graphql
