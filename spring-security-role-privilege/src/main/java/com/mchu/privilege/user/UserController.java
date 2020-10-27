@@ -14,11 +14,12 @@ import java.security.Principal;
 public class UserController {
 
     @GetMapping("/users")
-    @PreAuthorize("hasAuthority('WRITE_PRIVILEGE')")
+    @PreAuthorize("hasRole('ADMIN') or hasAuthority('WRITE_PRIVILEGE')")
     public String getAllUsers(@AuthenticationPrincipal Principal auth){
         if(auth != null)
             log.debug(auth.toString());
         log.debug(">hello");
         return "Hello";
     }
+
 }
